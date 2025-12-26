@@ -11,8 +11,7 @@ This project provides a comprehensive data-driven analysis of a global sales dat
 ![Sales Dashboard](dashboard.png) 
 *If the interactive charts do not load, you can view the static preview above.*
 
-👉 **[View the Interactive Python Notebook](./Sales_Dashboard.ipynb)**
-
+👉 **[View the Interactive Python Notebook (Direct Render)](https://nbviewer.org/github/Omneya21/sales-data-analysis-portfolio/blob/main/Sales_Dashboard.ipynb)**
 ---
 
 ## 🛠️ Tech Stack & Skills
