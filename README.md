@@ -1,38 +1,62 @@
-# Sales Analytics Portfolio Project
+# 🏎️ Automotive Sales Analytics & Customer Segmentation Portfolio
 
-## Overview
-Analyzed a sample sales dataset (model cars, trains, planes — no forbidden products) to demonstrate skills across retail, finance, and tech industries.
+## 📊 Project Overview
+This project provides a comprehensive data-driven analysis of a global sales dataset (Classic Cars, Planes, Ships). It demonstrates a full data pipeline—from **cleaning and normalization** to **advanced SQL querying** and **predictive business insights**.
 
-Dataset: [Sample Sales Data on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data) (2,823 transactions, 2003-2005)
+> **Dataset:** [Sample Sales Data (Kaggle)](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data) — 2,823 transactions covering the period 2003-2005.
 
-## Key Achievements
-- Cleaned and normalized data into a relational SQLite database (Products, Customers, Orders)
-- Built advanced SQL queries for business insights
-- Performed RFM customer segmentation
-- Created cohort analysis for retention tracking
-- Visualized trends and segments using Python (matplotlib/seaborn)
+---
 
-## Business Questions Answered
-1. Sales performance by product line and region → Classic Cars dominate in USA/Spain/France
-2. Deal size drivers → Large deals concentrated in Q4
-3. Top customers → Euro Shopping Channel leads with $912K revenue
-4. Seasonal trends → Strong Q4 peaks every year
-5. Scenario resilience → Diversification into Vintage Cars and Motorcycles recommended
+## 🖼️ Executive Dashboard Preview
+![Sales Dashboard](dashboard.png) 
+*If the interactive charts do not load, you can view the static preview above.*
 
-## Tech Stack
-- Python (pandas, sqlite3)
-- SQL (complex joins, window functions, CTEs)
-- Visualization (matplotlib, seaborn)
+👉 **[View the Interactive Python Notebook](./Sales_Dashboard.ipynb)**
 
-## Files
-- `Sales Analytics Notebook.ipynb` → Full code and analysis
-- `monthly_sales_trend.png` → Sales over time
-- `cohort_analysis_heatmap.png` → Customer retention
-- `sales_data_cleaned.csv` → Cleaned dataset
-- `sales_database.db` → Normalized database
+---
 
-## How to Run
-1. Open the notebook in Kaggle or Colab
-2. Run all cells sequentially
+## 🛠️ Tech Stack & Skills
+| Tool | Application |
+| :--- | :--- |
+| **Python** | Data cleaning (Pandas), Visualization (Plotly, Matplotlib, Seaborn) |
+| **SQL (SQLite)** | Relational database modeling, CTEs, Window Functions, Complex Joins |
+| **Analytics** | RFM Segmentation, Cohort Analysis, Sales Forecasting |
 
-This project showcases ethical, multi-industry data analytics without compromising principles.
+---
+
+## 🚀 Key Achievements & Business Insights
+
+### 1. Data Architecture
+* **Relational Modeling:** Normalized raw data into a structured SQLite database (`Products`, `Customers`, `Orders`).
+* **Data Integrity:** Cleaned missing values and standardized categorical fields for accurate reporting.
+
+### 2. Strategic Analysis (Answering Business Questions)
+* **Market Dominance:** Identified **Classic Cars** as the primary revenue driver, particularly in the **USA, Spain, and France**.
+* **Seasonality:** Detected significant sales peaks in **Q4** annually, driven by year-end promotions.
+* **Top Performers:** Isolated "Euro Shopping Channel" as the lead customer ($912K+ Revenue).
+* **Customer Behavior:** Performed **RFM (Recency, Frequency, Monetary)** segmentation to categorize loyal vs. at-risk customers.
+* **Retention:** Created a **Cohort Analysis Heatmap** to track customer lifecycles and repeat purchase rates.
+
+---
+
+## 📁 Repository Structure
+* 📝 `Sales_Dashboard.ipynb` → Full Python code, data cleaning, and visualizations.
+* 📊 `sales_data_cleaned.csv` → The processed and cleaned dataset used for analysis.
+* 🗄️ `sales_database.db` → Normalized relational database file.
+* 🖼️ `monthly_sales_trend.png` → Sales performance over time.
+* 🖼️ `cohort_analysis_heatmap.png` → Customer retention visualization.
+* 🖼️ `dashboard.png` → Screenshot of the final interactive dashboard.
+
+---
+
+## ⚙️ How to Run
+1. Clone this repository to your local machine.
+2. Open `Sales_Dashboard.ipynb` in **Google Colab** or **Jupyter Notebook**.
+3. Ensure the `sales_data_cleaned.csv` file is in the same directory.
+4. Run all cells sequentially to generate the interactive visualizations.
+
+---
+**Contact & Portfolio**
+* **Project by:** Omneya
+* **GitHub Profile:** [Omneya21](https://github.com/Omneya21)
+* **Role:** Data Analyst Enthusiast
