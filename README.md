@@ -1,6 +1,4 @@
-# sales-data-analysis-portfolio
-End-to-End Sales Analytics Portfolio: Data Cleaning → SQL Normalization → RFM &amp; Cohort → Actionable Insights 
-# Ethical Sales Analytics Portfolio Project
+# Sales Analytics Portfolio Project
 
 ## Overview
 Analyzed a sample sales dataset (model cars, trains, planes — no forbidden products) to demonstrate skills across retail, finance, and tech industries.
